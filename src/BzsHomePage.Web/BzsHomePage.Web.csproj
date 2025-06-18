@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Components\Comps\" />
+      <PackageReference Include="Bzs.TailwindBcl" Version="1.0.1" />
     </ItemGroup>
 
 </Project>

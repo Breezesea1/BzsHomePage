@@ -1,0 +1,27 @@
+﻿@using BzsHomePage.Db.Entities
+@using BzsHomePage.Db.Services
+<BzsPaper class="flex flex-col w-64 px-2">
+    <header class="flex flex-row justify-start items-center w-full">
+        <BzsLabel Text="Test" EnableBg="false" text-class="text-xl text-slate-800" class="px-0"/>
+        <div class="w-full"></div>
+        <BzsToggleField @bind-Value="_isPublic" Name="" input-class="!h-7 rounded-full" label-class="ml-2 text-xl text-slate-800" />
+    </header>
+    <content>
+
+    </content>
+</BzsPaper>
+
+@code {
+
+    private bool _isPublic = true;
+
+    [Parameter]
+    public required HomePageEntity HomePageEntity { get; set; } = new HomePageEntity()
+    {
+        Id = 0,
+        Name = "Jellyfin",
+        PrivateIpAddr = "192.168.1.100",
+        PublicIpAddr = "172.16.58.3"
+    };
+
+}

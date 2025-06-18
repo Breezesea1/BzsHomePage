@@ -5,6 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <base href="/"/>
+    <link rel="stylesheet" href="@Assets["./_content/Bzs.TailwindBcl/css/Bzs.TailwindBcl.css"]" />
     <link rel="stylesheet" href="@Assets["./css/app.css"]"/>
     <link rel="stylesheet" href="@Assets["BzsHomePage.Web.styles.css"]"/>
     <ImportMap/>
@@ -12,7 +13,7 @@
     <HeadOutlet @rendermode="InteractiveServer"/>
 </head>
 
-<body>
+<body data-theme="bzslight">
 <Routes @rendermode="InteractiveServer"/>
 <script src="_framework/blazor.web.js"></script>
 </body>
