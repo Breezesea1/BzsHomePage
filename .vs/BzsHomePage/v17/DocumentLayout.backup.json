@@ -1,82 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\bzs\\BzsHomePage\\",
+  "WorkspaceRootPath": "D:\\MyProj\\proj\\BzsHomePage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\basicpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\comps\\basicpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\rendertemplate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\comps\\rendertemplate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\comps\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\basicpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\comps\\basicpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\rendertemplate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\comps\\rendertemplate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.db\\entities\\homepageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.db\\entities\\homepageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|solutionrelative:src\\bzshomepage.db\\entities\\homepageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.db\\dbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.db\\dbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|solutionrelative:src\\bzshomepage.db\\dbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.db\\services\\homepagecurd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.db\\services\\homepagecurd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|solutionrelative:src\\bzshomepage.db\\services\\homepagecurd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.db\\bzshomepage.db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.db\\bzshomepage.db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|solutionrelative:src\\bzshomepage.db\\bzshomepage.db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.db\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.db\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC31E31-3C20-4016-B07D-7D7CD31A4745}|src\\BzsHomePage.Db\\BzsHomePage.Db.csproj|solutionrelative:src\\bzshomepage.db\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\myproj\\proj\\bzshomepage\\src\\bzshomepage.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,115 +94,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T09:30:29.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAC8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T08:53:30.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:53:30.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "App.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\App.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\App.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\App.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\App.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\App.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T08:39:51.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T08:39:51.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Error.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Error.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Pages\\Error.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Error.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Error.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Pages\\Error.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T06:00:26.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T06:00:26.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "SideBar.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-19T02:22:18.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RenderTemplate.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T08:22:00.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T08:22:00.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BasicPage.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T08:25:20.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:25:20.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "app.css",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\app.css",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\app.css",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\app.css",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\app.css",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\app.css",
               "RelativeToolTip": "src\\BzsHomePage.Web\\app.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-12T08:49:04.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T08:49:04.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Routes.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Routes.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Routes.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Routes.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Routes.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -210,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HomePageCurd.cs",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\Services\\HomePageCurd.cs",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\Services\\HomePageCurd.cs",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Db\\Services\\HomePageCurd.cs",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\Services\\HomePageCurd.cs",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\Services\\HomePageCurd.cs",
               "RelativeToolTip": "src\\BzsHomePage.Db\\Services\\HomePageCurd.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,11 +203,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\_Imports.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T08:49:10.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T09:30:29.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DbFactory.cs",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\DbFactory.cs",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\DbFactory.cs",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Db\\DbFactory.cs",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\DbFactory.cs",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\DbFactory.cs",
               "RelativeToolTip": "src\\BzsHomePage.Db\\DbFactory.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAowDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -234,11 +239,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomePageEntity.cs",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\Entities\\HomePageEntity.cs",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\Entities\\HomePageEntity.cs",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Db\\Entities\\HomePageEntity.cs",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\Entities\\HomePageEntity.cs",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\Entities\\HomePageEntity.cs",
               "RelativeToolTip": "src\\BzsHomePage.Db\\Entities\\HomePageEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -246,11 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ServiceExtension.cs",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\ServiceExtension.cs",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\ServiceExtension.cs",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Db\\ServiceExtension.cs",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\ServiceExtension.cs",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\ServiceExtension.cs",
               "RelativeToolTip": "src\\BzsHomePage.Db\\ServiceExtension.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAA3wAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -258,11 +263,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BzsHomePage.Db.csproj",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\BzsHomePage.Db.csproj",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\BzsHomePage.Db.csproj",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Db\\BzsHomePage.Db.csproj",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Db\\BzsHomePage.Db.csproj",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Db\\BzsHomePage.Db.csproj",
               "RelativeToolTip": "src\\BzsHomePage.Db\\BzsHomePage.Db.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -270,11 +275,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\appsettings.Development.json",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.Development.json",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.Development.json",
               "RelativeToolTip": "src\\BzsHomePage.Web\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -282,11 +287,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.json",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.json",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\appsettings.json",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.json",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\appsettings.json",
               "RelativeToolTip": "src\\BzsHomePage.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -294,11 +299,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Program.cs",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Program.cs",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Program.cs",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Program.cs",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\Program.cs",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvxAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,26 +312,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\_Imports.razor",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\_Imports.razor",
-              "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T08:49:10.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "site.js",
-              "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\wwwroot\\js\\site.js",
-              "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\MyProj\\proj\\BzsHomePage\\src\\BzsHomePage.Web\\wwwroot\\js\\site.js",
               "RelativeToolTip": "src\\BzsHomePage.Web\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-06-19T03:41:18.886Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

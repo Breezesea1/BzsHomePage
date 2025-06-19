@@ -7,6 +7,6 @@ services:
       
     volumes:
       - type: bind
-        source: ./test
+        source: ./Db
         target: /app/Db
     restart: unless-stopped
