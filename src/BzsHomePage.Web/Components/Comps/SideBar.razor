@@ -4,24 +4,23 @@
 
 
 <header class="flex h-12 flex-row gap-2">
-    <div class="m-0 flex flex-1 items-center justify-center rounded-2xl bg-slate-200 object-center text-center shadow-lg inset-shadow-xs shadow-slate-800/30 inset-shadow-slate-100/30 backdrop-blur-xl text-shadow-slate-700">
-        <h1 class="font-primary font-mono text-2xl text-nowrap text-black lg:text-3xl">BREEZESEA's HOMEPAGE</h1>
-    </div>
-    <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/plus.png"]" img-class="aspect-square !size-6" class="aspect-square h-full rounded-full" OnClick="ShowModalAsync" />
+    <BzsLabel Text="BREEZESEA's HOMEPAGE" bg-class="flex-1" text-class="font-primary font-mono text-2xl text-nowrap lg:text-3xl" />
+
+    <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/plus.png"]" img-class="aspect-square !size-6 invert" class="aspect-square h-full rounded-full" OnClick="ShowModalAsync" />
 </header>
 
-<BzsModal Title="Add site" @ref="_bzsModal" title-class="font-main text-xl text-black">
+<BzsModal Title="Add site" @ref="_bzsModal" title-class="font-main text-xl">
     <EditForm class="flex min-h-52 w-full flex-col items-center gap-2 p-2" Model="@Page" method="post"
               FormName="AddHouTaskForm" OnValidSubmit="SubmitAsync">
         <DataAnnotationsValidator />
 
-        <BzsStringField Name="Name" placeholder="site name" @bind-Value="Page.Name" label-class="font-minor text-black" input-class="font-tertiary text-black" EnableValidator="true" Validator="() => Page.Name" />
-        <BzsStringField Name="PublicAddr" placeholder="public address" @bind-Value="Page.PublicIpAddr" label-class="font-minor text-black" input-class="font-tertiary text-black" />
-        <BzsStringField Name="PrivateAddr" placeholder="private address" @bind-Value="Page.PrivateIpAddr" label-class="font-minor text-black" input-class="font-tertiary text-black" EnableValidator="true" Validator="() => Page.PrivateIpAddr" />
+        <BzsStringField Name="Name" placeholder="site name" @bind-Value="Page.Name" label-class="font-minor" input-class="font-tertiary" EnableValidator="true" Validator="() => Page.Name" />
+        <BzsStringField Name="PublicAddr" placeholder="public address" @bind-Value="Page.PublicIpAddr" label-class="font-minor" input-class="font-tertiary" />
+        <BzsStringField Name="PrivateAddr" placeholder="private address" @bind-Value="Page.PrivateIpAddr" label-class="font-minor" input-class="font-tertiary" EnableValidator="true" Validator="() => Page.PrivateIpAddr" />
 
         <div class="mt-4 flex w-full flex-row items-center justify-between gap-3">
-            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="OK" class="w-full" text-class="font-minor text-black" />
-            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="Cancel" class="w-full" text-class="font-minor text-black" />
+            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="OK" class="w-full" text-class="font-minor" />
+            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="Cancel" class="w-full" text-class="font-minor" />
         </div>
     </EditForm>
 </BzsModal>

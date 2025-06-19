@@ -6,16 +6,15 @@
 
 <BzsPaper class="flex max-w-full min-w-fit flex-col px-2">
     <header class="mb-6 flex w-full flex-row items-center justify-start">
-        <BzsLabel Text="@HomePageEntity.Name" EnableBg="false" text-class="font-minor text-xl font-medium text-slate-800" class="px-0" />
+        <BzsLabel Text="@HomePageEntity.Name" EnableBg="false" text-class="font-minor text-xl font-medium" class="px-0" />
         <div class="w-full"></div>
     </header>
     <content class="flex flex-col gap-3">
         <div class="flex w-full flex-row items-center justify-between gap-4">
-            <BzsLabel Text="@HomePageEntity.PublicIpAddr" EnableBg="false" text-class="font-tertiary text-black" />
-            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PublicIpAddr)" />
+            <BzsLabel Text="@HomePageEntity.PublicIpAddr" EnableBg="false" text-class="font-tertiary /> <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PublicIpAddr)" />
         </div>
         <div class="flex w-full flex-row items-center justify-between gap-4">
-            <BzsLabel Text="@HomePageEntity.PrivateIpAddr" EnableBg="false" text-class="font-tertiary text-black" />
+            <BzsLabel Text="@HomePageEntity.PrivateIpAddr" EnableBg="false" text-class="font-tertiary" />
             <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PrivateIpAddr)" />
         </div>
     </content>
