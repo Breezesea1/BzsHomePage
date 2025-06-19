@@ -17,12 +17,16 @@ public class DbFactory
     {
         _options = options.Value;
         ConnectionString = GetConnectionString();
+
+        var a = ConnectionString.Filename;
+        var p = new BzsPath(a);
+        p.Parent.CreateDirectory();
+
     }
 
     private ConnectionString GetConnectionString()
     {
         var p = new BzsPath(_options.ConnectionString);
-        p.CreateDirectory();
         return new ConnectionString($"Filename={p.AsPosix()};Connection=direct;");
     }
 

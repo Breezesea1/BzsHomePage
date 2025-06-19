@@ -3,19 +3,19 @@
 
 
 
+<div class="bg-gradient-to-br absolute -z-10 h-screen w-screen from-slate-400 to-slate-300 bg-cover bg-center"></div>
 
-<div
-    class="relative flex size-full h-screen flex-col gap-2 bg-gradient-to-br from-slate-400 to-slate-300 text-white bg-center bg-cover">
-    <!-- 背景图模糊层 -->
-    <SideBar/>
-    <main>
-        @Body
+<div class="z-10 flex h-screen w-screen flex-col gap-12 overflow-y-scroll px-8 py-4 text-white">
+    <SideBar @ref="_sideBar" />
+
+    <main class="flex-100 pb-4">
+        <RenderTemplate>
+            <CascadingValue Value="_sideBar" Name="bar">
+                @Body
+            </CascadingValue>
+        </RenderTemplate>
     </main>
 </div>
-
-
-
-
 
 
 <div id="blazor-error-ui" data-nosnippet>
@@ -23,3 +23,10 @@
     <a href="." class="reload">Reload</a>
     <span class="dismiss">🗙</span>
 </div>
+
+
+@code {
+
+    private SideBar? _sideBar;
+
+}

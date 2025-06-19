@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <base href="/"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
     <link rel="stylesheet" href="@Assets["./_content/Bzs.TailwindBcl/css/Bzs.TailwindBcl.css"]" />
-    <link rel="stylesheet" href="@Assets["./css/app.css"]"/>
-    <link rel="stylesheet" href="@Assets["BzsHomePage.Web.styles.css"]"/>
-    <ImportMap/>
-    <link rel="icon" type="image/png" href="favicon.png"/>
-    <HeadOutlet @rendermode="InteractiveServer"/>
+    <link rel="stylesheet" href="@Assets["./css/app.css"]" />
+    <link rel="stylesheet" href="@Assets["BzsHomePage.Web.styles.css"]" />
+    <ImportMap />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <HeadOutlet @rendermode="InteractiveServer" />
 </head>
 
-<body data-theme="bzslight">
-<Routes @rendermode="InteractiveServer"/>
-<script src="_framework/blazor.web.js"></script>
+<body data-theme="bzslight" class="h-screen">
+    <Routes @rendermode="InteractiveServer" />
+    <script src="_framework/blazor.web.js"></script>
+    <script src="@Assets["./js/site.js"]"></script>
 </body>
 
 </html>

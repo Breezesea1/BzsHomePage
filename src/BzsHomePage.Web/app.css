@@ -1,5 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+h1{
+    outline:none;
+}
+
+@theme {
+    --font-major: "Philosopher", sans-serif;
+    --font-minor: "Space Grotesk", sans-serif;
+    --font-tertiary: "Exo 2", sans-serif;
+}
+
 @config "./tailwind.config.js";
 @import "tailwindcss";
-
-
-

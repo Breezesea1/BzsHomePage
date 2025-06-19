@@ -10,10 +10,11 @@ builder.Services.Configure<DbOptions>(builder.Configuration.GetRequiredSection("
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddSingleton<DbFactory>();
+builder.Services.AddDatabase();
 
 
 var app = builder.Build();
+app.Services.UseDatabase();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -23,7 +24,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 
 app.UseAntiforgery();

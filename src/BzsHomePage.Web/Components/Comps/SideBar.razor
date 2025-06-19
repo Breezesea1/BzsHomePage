@@ -1,7 +1,83 @@
-<header class="flex h-18 flex-row gap-2 px-8 py-4">
-    <div
-        class="m-0 flex flex-1 items-center justify-center rounded-2xl bg-slate-200 object-center text-center shadow-lg inset-shadow-xs shadow-slate-800/30 inset-shadow-slate-100/30 backdrop-blur-xl text-shadow-slate-700">
-        <h1 class="text-xl text-slate-700">BREEZESEA</h1>
+﻿@using BzsHomePage.Db.Entities
+@using BzsHomePage.Db.Services
+@inject HomePageCurd Curd
+
+
+<header class="flex h-12 flex-row gap-2">
+    <div class="m-0 flex flex-1 items-center justify-center rounded-2xl bg-slate-200 object-center text-center shadow-lg inset-shadow-xs shadow-slate-800/30 inset-shadow-slate-100/30 backdrop-blur-xl text-shadow-slate-700">
+        <h1 class="font-primary font-mono text-2xl text-nowrap text-black lg:text-3xl">BREEZESEA's HOMEPAGE</h1>
     </div>
-    <BzsButton LabelType="LabelType.Text" Text="+" text-class="text-xl text-black" class="aspect-square h-full rounded-full"/> 
+    <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/plus.png"]" img-class="aspect-square !size-6" class="aspect-square h-full rounded-full" OnClick="ShowModalAsync" />
 </header>
+
+<BzsModal Title="Add site" @ref="_bzsModal" title-class="font-main text-xl text-black">
+    <EditForm class="flex min-h-52 w-full flex-col items-center gap-2 p-2" Model="@Page" method="post"
+              FormName="AddHouTaskForm" OnValidSubmit="SubmitAsync">
+        <DataAnnotationsValidator />
+
+        <BzsStringField Name="Name" placeholder="site name" @bind-Value="Page.Name" label-class="font-minor text-black" input-class="font-tertiary text-black" EnableValidator="true" Validator="() => Page.Name" />
+        <BzsStringField Name="PublicAddr" placeholder="public address" @bind-Value="Page.PublicIpAddr" label-class="font-minor text-black" input-class="font-tertiary text-black" />
+        <BzsStringField Name="PrivateAddr" placeholder="private address" @bind-Value="Page.PrivateIpAddr" label-class="font-minor text-black" input-class="font-tertiary text-black" EnableValidator="true" Validator="() => Page.PrivateIpAddr" />
+
+        <div class="mt-4 flex w-full flex-row items-center justify-between gap-3">
+            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="OK" class="w-full" text-class="font-minor text-black" />
+            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="Cancel" class="w-full" text-class="font-minor text-black" />
+        </div>
+    </EditForm>
+</BzsModal>
+
+
+@code {
+    public delegate void SiteAddedHandler(object source, EventArgs e);
+
+
+    protected virtual void OnSitedAdded(EventArgs message)
+    {
+        SiteAdded?.Invoke(this, message);
+    }
+
+
+
+
+
+    private BzsModal? _bzsModal;
+    public event SiteAddedHandler? SiteAdded;
+    private HomePageEntity Page { get; set; } = new HomePageEntity()
+    {
+        Id = -1,
+        Name = "",
+        PrivateIpAddr = ""
+    };
+
+    private async Task ShowModalAsync()
+    {
+
+        if (_bzsModal is null)
+            return;
+
+        await _bzsModal.ShowModalWindowAsync();
+
+    }
+
+
+    private async Task SubmitAsync()
+    {
+        if (_bzsModal is null)
+            return;
+
+        HomePageEntity? existPage = Curd.GetByName(Page.Name);
+        if (existPage is not null)
+        {
+            Page.Id = existPage.Id;
+            Curd.Update(Page);
+        }
+        else
+        {
+            Curd.Insert(Page);
+        }
+
+        OnSitedAdded(new EventArgs());
+
+        await _bzsModal.CloseModalWindowAsync();
+    }
+}

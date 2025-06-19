@@ -1,13 +1,23 @@
-﻿@using BzsHomePage.Db.Entities
-@using BzsHomePage.Db.Services
-<BzsPaper class="flex flex-col w-64 px-2">
-    <header class="flex flex-row justify-start items-center w-full">
-        <BzsLabel Text="Test" EnableBg="false" text-class="text-xl text-slate-800" class="px-0"/>
-        <div class="w-full"></div>
-        <BzsToggleField @bind-Value="_isPublic" Name="" input-class="!h-7 rounded-full" label-class="ml-2 text-xl text-slate-800" />
-    </header>
-    <content>
+﻿@inject IJSRuntime JsRuntime
 
+@using BzsHomePage.Db.Entities
+@using BzsHomePage.Db.Services
+
+
+<BzsPaper class="flex max-w-full min-w-fit flex-col px-2">
+    <header class="mb-6 flex w-full flex-row items-center justify-start">
+        <BzsLabel Text="@HomePageEntity.Name" EnableBg="false" text-class="font-minor text-xl font-medium text-slate-800" class="px-0" />
+        <div class="w-full"></div>
+    </header>
+    <content class="flex flex-col gap-3">
+        <div class="flex w-full flex-row items-center justify-between gap-4">
+            <BzsLabel Text="@HomePageEntity.PublicIpAddr" EnableBg="false" text-class="font-tertiary text-black" />
+            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PublicIpAddr)" />
+        </div>
+        <div class="flex w-full flex-row items-center justify-between gap-4">
+            <BzsLabel Text="@HomePageEntity.PrivateIpAddr" EnableBg="false" text-class="font-tertiary text-black" />
+            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PrivateIpAddr)" />
+        </div>
     </content>
 </BzsPaper>
 
@@ -15,13 +25,20 @@
 
     private bool _isPublic = true;
 
-    [Parameter]
-    public required HomePageEntity HomePageEntity { get; set; } = new HomePageEntity()
-    {
-        Id = 0,
-        Name = "Jellyfin",
-        PrivateIpAddr = "192.168.1.100",
-        PublicIpAddr = "172.16.58.3"
-    };
+    [Parameter, EditorRequired]
+    public required HomePageEntity HomePageEntity { get; set; }
 
+
+    private async Task OpenNewPage(string? page)
+    {
+        if (page is null)
+            return;
+
+
+        page = page.Trim();
+        if (page.StartsWith("http://") || page.StartsWith("https://"))
+            await JsRuntime.InvokeVoidAsync("openInNewTab", page);
+        else
+            await JsRuntime.InvokeVoidAsync("openInNewTab", $"http://{page}");
+    }
 }

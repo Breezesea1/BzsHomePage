@@ -16,4 +16,11 @@ public static class ServiceExtension
         });
         sc.AddSingleton<HomePageCurd>();
     }
+
+    public static void UseDatabase(this IServiceProvider sp)
+    {
+        var dbFactory = sp.GetRequiredService<DbFactory>();
+        dbFactory.EnsureCreateDb();
+
+    }
 }

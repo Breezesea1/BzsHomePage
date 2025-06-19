@@ -1,0 +1,12 @@
+services:
+  bzshomepage:
+    image: breezesea1/bzshomepage:latest
+    container_name: bzshomepage
+    ports:
+      - "8888:8888"
+      
+    volumes:
+      - type: bind
+        source: ./test
+        target: /app/Db
+    restart: unless-stopped

@@ -1,7 +1,55 @@
 ﻿@page "/"
+
+@using BzsHomePage.Db.Entities
+@using BzsHomePage.Db.Services
 @using BzsHomePage.Web.Components.Comps
 
-<div class="flex items-center justify-center">
-    <BasicPage />
+@inject HomePageCurd Crud;
 
+<div class="grid size-full auto-rows-min grid-cols-1 items-start justify-evenly gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
+    @foreach (var homePage in _pages)
+    {
+        <BasicPage HomePageEntity="homePage" @key="homePage.Id" />
+    }
 </div>
+
+
+@code {
+    private List<HomePageEntity> _pages = [];
+    private bool _isInit = false;
+
+    [CascadingParameter(Name = "bar")]
+    public SideBar? SideBar { get; set; }
+
+
+
+
+    protected override Task OnInitializedAsync()
+    {
+        if (!_isInit)
+        {
+            _isInit = true;
+            _pages = Crud.GetAll().ToList();
+
+
+        }
+
+        return base.OnInitializedAsync();
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+
+        if (SideBar is not null)
+            SideBar.SiteAdded += (object src, EventArgs e) =>
+        {
+            _pages = Crud.GetAll().ToList();
+            StateHasChanged();
+        };
+
+
+        return Task.CompletedTask;
+    }
+
+
+}
