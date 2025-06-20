@@ -134,8 +134,7 @@
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
               "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T02:22:18.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T02:22:18.281Z"
             },
             {
               "$type": "Document",
@@ -147,8 +146,7 @@
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T08:22:00.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T08:22:00.764Z"
             },
             {
               "$type": "Document",
@@ -158,7 +156,7 @@
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAABgAAADiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-18T08:25:20.776Z",
               "EditorCaption": ""
@@ -173,21 +171,19 @@
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T08:53:30.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:53:30.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BzsHomePage.Web",
+              "Title": "BzsHomePage.Web.csproj",
               "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "RelativeToolTip": "src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-20T01:44:03.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T01:44:03.405Z"
             },
             {
               "$type": "Document",

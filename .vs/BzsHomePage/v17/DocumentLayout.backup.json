@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\bzs\\BzsHomePage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\basicpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\comps\\basicpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|solutionrelative:src\\bzshomepage.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E5E965B-3FB7-4D87-AE74-6AA1DA69177E}|src\\BzsHomePage.Web\\BzsHomePage.Web.csproj|d:\\bzs\\bzshomepage\\src\\bzshomepage.web\\components\\comps\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,8 +134,7 @@
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\SideBar.razor",
               "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T02:22:18.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T02:22:18.281Z"
             },
             {
               "$type": "Document",
@@ -147,25 +146,24 @@
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\RenderTemplate.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T08:22:00.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T08:22:00.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BasicPage.razor",
               "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Comps\\BasicPage.razor",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAH4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-18T08:25:20.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
@@ -173,21 +171,19 @@
               "RelativeToolTip": "src\\BzsHomePage.Web\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T08:53:30.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:53:30.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BzsHomePage.Web",
+              "Title": "BzsHomePage.Web.csproj",
               "DocumentMoniker": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "RelativeDocumentMoniker": "src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "ToolTip": "D:\\bzs\\BzsHomePage\\src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "RelativeToolTip": "src\\BzsHomePage.Web\\BzsHomePage.Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-20T01:44:03.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T01:44:03.405Z"
             },
             {
               "$type": "Document",
