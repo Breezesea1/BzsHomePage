@@ -9,7 +9,7 @@
 <div class="grid size-full auto-rows-min grid-cols-1 items-start justify-evenly gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
     @foreach (var homePage in _pages)
     {
-        <BasicPage HomePageEntity="homePage" @key="homePage.Id" />
+        <BasicPage HomePageEntity="homePage" @key="homePage.Id" OnDelete="UpdateAllPages" />
     }
 </div>
 
@@ -30,11 +30,16 @@
         {
             _isInit = true;
             _pages = Crud.GetAll().ToList();
-
-
         }
 
         return base.OnInitializedAsync();
+    }
+
+    private void UpdateAllPages()
+    {
+
+        _pages = Crud.GetAll().ToList();
+        StateHasChanged();
     }
 
     protected override Task OnAfterRenderAsync(bool firstRender)
@@ -43,10 +48,8 @@
         if (SideBar is not null)
             SideBar.SiteAdded += (object src, EventArgs e) =>
         {
-            _pages = Crud.GetAll().ToList();
-            StateHasChanged();
+            UpdateAllPages();
         };
-
 
         return Task.CompletedTask;
     }

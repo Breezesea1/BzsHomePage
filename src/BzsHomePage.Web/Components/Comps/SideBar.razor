@@ -11,7 +11,7 @@
 
 <BzsModal Title="Add site" @ref="_bzsModal" title-class="font-main text-xl">
     <EditForm class="flex min-h-52 w-full flex-col items-center gap-2 p-2" Model="@Page" method="post"
-              FormName="AddHouTaskForm" OnValidSubmit="SubmitAsync">
+              FormName="Add" OnValidSubmit="SubmitAsync">
         <DataAnnotationsValidator />
 
         <BzsStringField Name="Name" placeholder="site name" @bind-Value="Page.Name" label-class="font-minor" input-class="font-tertiary" EnableValidator="true" Validator="() => Page.Name" />
@@ -20,7 +20,7 @@
 
         <div class="mt-4 flex w-full flex-row items-center justify-between gap-3">
             <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="OK" class="w-full" text-class="font-minor" />
-            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="Cancel" class="w-full" text-class="font-minor" />
+            <BzsButton BtnType="ButtonType.Button" LabelType="LabelType.Text" Text="Cancel" class="w-full" text-class="font-minor" OnClick="CancelAsync" />
         </div>
     </EditForm>
 </BzsModal>
@@ -34,9 +34,6 @@
     {
         SiteAdded?.Invoke(this, message);
     }
-
-
-
 
 
     private BzsModal? _bzsModal;
@@ -76,6 +73,17 @@
         }
 
         OnSitedAdded(new EventArgs());
+
+        await _bzsModal.CloseModalWindowAsync();
+    }
+
+
+    private async Task CancelAsync()
+    {
+        if (_bzsModal is null)
+            return;
+
+
 
         await _bzsModal.CloseModalWindowAsync();
     }

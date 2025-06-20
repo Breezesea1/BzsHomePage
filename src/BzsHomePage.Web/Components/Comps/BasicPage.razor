@@ -1,4 +1,6 @@
 ﻿@inject IJSRuntime JsRuntime
+@inject HomePageCurd Curd
+
 
 @using BzsHomePage.Db.Entities
 @using BzsHomePage.Db.Services
@@ -8,24 +10,54 @@
     <header class="mb-6 flex w-full flex-row items-center justify-start">
         <BzsLabel Text="@HomePageEntity.Name" EnableBg="false" text-class="font-minor text-xl font-medium" class="px-0" />
         <div class="w-full"></div>
+        <div class="flex flex-row gap-2">
+            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/modify.png"]" class="aspect-square size-8 rounded-full" img-class="scale-75 invert" OnClick="ShowUpdateModalAsync" />
+            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/delete.png"]" class="aspect-square size-8 rounded-full" img-class="scale-75 invert" OnClick="ShowDelteModalAsync" />
+        </div>
     </header>
     <content class="flex flex-col gap-3">
         <div class="flex w-full flex-row items-center justify-between gap-4">
-            <BzsLabel Text="@HomePageEntity.PublicIpAddr" EnableBg="false" text-class="font-tertiary /> <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PublicIpAddr)" />
+            <BzsLabel Text="@HomePageEntity.PublicIpAddr" EnableBg="false" text-class="font-tertiary" />
+            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" img-class="scale-75 invert" OnClick="() => OpenNewPage(HomePageEntity.PublicIpAddr)" />
         </div>
         <div class="flex w-full flex-row items-center justify-between gap-4">
             <BzsLabel Text="@HomePageEntity.PrivateIpAddr" EnableBg="false" text-class="font-tertiary" />
-            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" OnClick="() => OpenNewPage(HomePageEntity.PrivateIpAddr)" />
+            <BzsButton LabelType="LabelType.Icon" IconUrl="@Assets["./assets/right-arrow.png"]" class="aspect-square size-8 rounded-full" img-class="scale-75 invert" OnClick="() => OpenNewPage(HomePageEntity.PrivateIpAddr)" />
         </div>
     </content>
 </BzsPaper>
+
+<BzsModal Title="Modify" @ref="_modifyModal">
+    <EditForm class="flex min-h-52 w-full flex-col items-center gap-2 p-2" Model="@HomePageEntity" method="post"
+              FormName="Update" OnValidSubmit="UpdateAsync">
+        <DataAnnotationsValidator />
+
+        <BzsStringField Name="PublicAddr" placeholder="public address" @bind-Value="HomePageEntity.PublicIpAddr" label-class="font-minor" input-class="font-tertiary" />
+        <BzsStringField Name="PrivateAddr" placeholder="private address" @bind-Value="HomePageEntity.PrivateIpAddr" label-class="font-minor" input-class="font-tertiary" EnableValidator="true" Validator="() => HomePageEntity.PrivateIpAddr" />
+
+        <div class="mt-4 flex w-full flex-row items-center justify-between gap-3">
+            <BzsButton BtnType="ButtonType.Submit" LabelType="LabelType.Text" Text="OK" class="w-full" text-class="font-minor" />
+            <BzsButton BtnType="ButtonType.Button" LabelType="LabelType.Text" Text="Cancel" class="w-full" text-class="font-minor" OnClick="CancelAsync" />
+        </div>
+    </EditForm>
+</BzsModal>
+<BzsConfirmModal Title="Delete" @ref="_deleteModal" OnClick="DeleteAsync"></BzsConfirmModal>
 
 @code {
 
     private bool _isPublic = true;
 
+    private BzsModal? _modifyModal;
+    private BzsConfirmModal? _deleteModal;
+
     [Parameter, EditorRequired]
     public required HomePageEntity HomePageEntity { get; set; }
+
+    [Parameter]
+    public EventCallback<HomePageEntity> OnDelete { get; set; }
+
+    [Parameter]
+    public EventCallback<HomePageEntity> OnUpdate { get; set; }
 
 
     private async Task OpenNewPage(string? page)
@@ -39,5 +71,74 @@
             await JsRuntime.InvokeVoidAsync("openInNewTab", page);
         else
             await JsRuntime.InvokeVoidAsync("openInNewTab", $"http://{page}");
+    }
+
+
+    private void Update()
+    {
+        Curd.Delete(HomePageEntity);
+    }
+
+    private async Task ShowDelteModalAsync()
+    {
+        if (_deleteModal is null)
+            return;
+
+        await _deleteModal.ShowModalWindowAsync();
+
+    }
+
+
+    private async Task DeleteAsync(bool confirm)
+    {
+
+        if (confirm)
+        {
+            Curd.Delete(HomePageEntity);
+            await OnDelete.InvokeAsync(HomePageEntity);
+        }
+    }
+
+
+    private async Task ShowUpdateModalAsync()
+    {
+
+        if (_modifyModal is null)
+            return;
+
+        await _modifyModal.ShowModalWindowAsync();
+
+    }
+
+    private async Task UpdateAsync()
+    {
+        if (_modifyModal is null)
+            return;
+
+        HomePageEntity? existPage = Curd.GetByName(HomePageEntity.Name);
+        if (existPage is not null)
+        {
+            HomePageEntity.Id = existPage.Id;
+            Curd.Update(HomePageEntity);
+        }
+        else
+        {
+            Curd.Insert(HomePageEntity);
+        }
+
+        await OnUpdate.InvokeAsync(HomePageEntity);
+
+        await _modifyModal.CloseModalWindowAsync();
+    }
+
+
+    private async Task CancelAsync()
+    {
+        if (_modifyModal is null)
+            return;
+
+
+
+        await _modifyModal.CloseModalWindowAsync();
     }
 }
